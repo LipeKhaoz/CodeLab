@@ -1,0 +1,30 @@
+div#case{
+    background-color: rgba(255, 250, 205, 0.524);
+    display: inline-block;
+    margin-left: 47.5%;
+    width: 450px;
+}
+input{
+    max-width: 355px;
+    position: relative;
+    align-items: center;
+    width: 250px;
+    margin-left: 10px;
+    left: 25%;
+}
+label{
+    size: 20px;
+    position: relative;
+    top: 24px;
+}
+
+#nome1, #email1, #password1, #password3{
+    background-color: transparent;
+    text-align: center;
+    border: transparent;
+    border-bottom: black 1px dashed;
+}
+
+#nome1::after{
+    line-height: 50%;
+}
